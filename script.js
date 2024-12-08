@@ -1,8 +1,8 @@
 
-let input = prompt("Please enter a number between 0 and 1000000:")
+let input = prompt("Please enter a number between 0 and 1000000:");
 
 
-let num = Number(input)
+let num = Number(input);
 
 if (num >= 0 && num <= 1000000) {
     
@@ -18,5 +18,5 @@ if (num >= 0 && num <= 1000000) {
 
 else {
     
-    alert("Invalid number")
+    alert("Invalid number");
 }
